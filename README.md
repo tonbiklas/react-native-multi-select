@@ -2,10 +2,13 @@
 
 you know select 2 on web ? now you have it in react native at your command :)
 
-###Screenshot
-![](https://cloud.githubusercontent.com/assets/8886687/18458361/c1b9227c-7975-11e6-8105-84a58c37c2aa.jpg)
+###Demo
+<p align="center">
+   <img src="example/demo.gif" width="100%" />
+</p>
 
-###example
+
+###Example
 
 LocationDropDown.js
 ```js
