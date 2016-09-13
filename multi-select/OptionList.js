@@ -1,4 +1,3 @@
-import 'babel-polyfill';
 import React, {Component, PropTypes, Children} from 'react';
 import {
     View,
