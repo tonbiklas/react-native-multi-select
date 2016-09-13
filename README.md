@@ -12,16 +12,15 @@ you know [select2](https://select2.github.io/) on web ? now you have it in react
 
 LocationDropDown.js
 ```js
+
 import React, {Component, PropTypes} from 'react';
 import {
     View,
     Text,
     StyleSheet
 } from 'react-native';
-import Select from './Select/Select';
-import SelectTextBox from './Select/SelectTextBox';
-import Option from './Select/Option';
-import OptionList from './Select/OptionList';
+import { Select, SelectTextBox, Option, OptionList } from 'multi-select';
+
 
 export default class LocationDropDown extends Component {
     static propTypes = {};
@@ -110,7 +109,7 @@ const styles = StyleSheet.create({
     }
 });
 
-   
+     
 ```
 
 index.android.js
