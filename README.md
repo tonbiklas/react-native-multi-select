@@ -1,6 +1,6 @@
 #React Native Multi Select
 
-you know select 2 on web ? now you have it in react native at your command :)
+you know [select2](https://select2.github.io/) on web ? now you have it in react native at your command :)
 
 ###Demo
 <p align="center">

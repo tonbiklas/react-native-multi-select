@@ -1,7 +1,0 @@
-{
-  "name": "react native multi select",
-  "version": "0.0.1",
-  "dependencies": {
-    "lodash": "^4.15.0"
-  }
-}
