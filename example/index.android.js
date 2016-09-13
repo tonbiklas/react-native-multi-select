@@ -5,7 +5,7 @@ import {
     Text,
     View
 } from 'react-native';
-import LocatonDropDown from './LocationDropDown';
+import LocationDropDown from './LocationDropDown';
 
 class App extends Component {
     render() {
@@ -15,7 +15,7 @@ class App extends Component {
                 justifyContent: 'center',
                 alignItems: 'center'
             }}>
-                <LocatonDropDown/>
+                <LocationDropDown/>
             </View>
         );
     }

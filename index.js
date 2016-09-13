@@ -1,4 +1,9 @@
-exports.Select = require('./dist/Select').default;
-exports.SelectTextBox = require('./dist/SelectTextBox').default;
-exports.Option = require('./dist/Option').default;
-exports.OptionList = require('./dist/OptionList').default;
+import {Select} from './multi-select/Select';
+import {Option} from './multi-select/Option';
+import {OptionList} from './multi-select/OptionList';
+import {SelectTextBox} from './multi-select/SelectTextBox';
+
+export let Select = Select;
+export let SelectTextBox = SelectTextBox;
+export let Option = Option;
+export let OptionList = OptionList;

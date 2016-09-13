@@ -4,7 +4,7 @@ import {
     Text,
     StyleSheet
 } from 'react-native';
-import { Select, SelectTextBox, Option, OptionList } from 'multo-select';
+import { Select, SelectTextBox, Option, OptionList } from 'react-native-multi-select';
 
 
 export default class LocationDropDown extends Component {
