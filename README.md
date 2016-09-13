@@ -7,6 +7,10 @@ you know [select2](https://select2.github.io/) on web ? now you have it in react
    <img src="example/demo.gif" width="60%" />
 </p>
 
+###Installation
+```s
+npm i -S react-native-multi-select
+```
 
 ###Example
 
@@ -19,7 +23,7 @@ import {
     Text,
     StyleSheet
 } from 'react-native';
-import { Select, SelectTextBox, Option, OptionList } from 'multi-select';
+import { Select, SelectTextBox, Option, OptionList } from 'react-native-multi-select';
 
 
 export default class LocationDropDown extends Component {
@@ -121,7 +125,7 @@ import {
     Text,
     View
 } from 'react-native';
-import LocatonDropDown from './LocationDropDown';
+import LocationDropDown from './LocationDropDown';
 
 class App extends Component {
     render() {
@@ -131,7 +135,7 @@ class App extends Component {
                 justifyContent: 'center',
                 alignItems: 'center'
             }}>
-                <LocatonDropDown/>
+                <LocationDropDown/>
             </View>
         );
     }
