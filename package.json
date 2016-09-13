@@ -1,24 +1,10 @@
 {
   "name": "react-native-multi-select",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "react native multi select just like select2 on the web",
   "main": "./index.js",
   "dependencies": {
-    "babel-polyfill": "^6.8.0",
     "lodash": "^4.15.0"
-  },
-  "scripts": {
-    "babel": "babel multi-select --out-dir dist"
-  },
-  "devDependencies": {
-    "babel": "^6.5.2",
-    "babel-cli": "^6.6.5",
-    "babel-eslint": "^6.0.3",
-    "babel-plugin-react-transform": "^2.0.2",
-    "babel-plugin-transform-decorators-legacy": "^1.3.4",
-    "babel-preset-es2015": "^6.6.0",
-    "babel-preset-react": "^6.5.0",
-    "babel-preset-stage-0": "^6.5.0"
   },
   "repository": {
     "type": "git",
