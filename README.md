@@ -4,7 +4,7 @@ you know select 2 on web ? now you have it in react native at your command :)
 
 ###Demo
 <p align="center">
-   <img src="example/demo.gif" width="100%" />
+   <img src="example/demo.gif" width="60%" />
 </p>
 
 
