@@ -63,7 +63,7 @@ OptionList.defaultProps = {
 const styles = StyleSheet.create({
     view: {},
     scrollView: {
-        backgroundColor: '#6A85B1',
+        backgroundColor: 'white',
         height: 300,
     }
 });

@@ -23,9 +23,7 @@ export default class SelectTextBox extends Component {
         return (
             <View refreshing={false} {...rest}>
                 <TextInput
-                    onEndEditing={() => {
-                        this.focusedTimeout = setTimeout(onTextInputLoosFocus, 50);
-                    }}
+                    
                     onFocus={onTextInputFocus}
                     onChange={onSelectTextBoxChanged}/>
                 {
@@ -50,3 +48,9 @@ export default class SelectTextBox extends Component {
         );
     }
 }
+
+/*
+onEndEditing={() => {
+                        this.focusedTimeout = setTimeout(onTextInputLoosFocus, 50);
+                    }}
+                    */
